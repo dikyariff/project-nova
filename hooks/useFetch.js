@@ -32,6 +32,7 @@ const useFetch = (endpoint, query) => {
       alert(`There's an error: ${error}`);
     } finally {
       setIsLoading(false);
+      console.log(rapidApiKey);
     }
   };
 
